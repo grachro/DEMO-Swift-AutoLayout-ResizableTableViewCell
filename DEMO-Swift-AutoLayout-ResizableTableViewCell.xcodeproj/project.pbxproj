@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4281EE719F3DAB300ADC973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281EE619F3DAB300ADC973 /* AppDelegate.swift */; };
+		F4281EE919F3DAB300ADC973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281EE819F3DAB300ADC973 /* ViewController.swift */; };
+		F4281EEC19F3DAB300ADC973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4281EEA19F3DAB300ADC973 /* Main.storyboard */; };
+		F4281EEE19F3DAB300ADC973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4281EED19F3DAB300ADC973 /* Images.xcassets */; };
+		F4281EF119F3DAB300ADC973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4281EEF19F3DAB300ADC973 /* LaunchScreen.xib */; };
+		F4281EFD19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281EFC19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4281EF719F3DAB300ADC973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4281ED919F3DAB300ADC973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4281EE019F3DAB300ADC973;
+			remoteInfo = "DEMO-Swift-AutoLayout-ResizableTableViewCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4281EE119F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DEMO-Swift-AutoLayout-ResizableTableViewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4281EE519F3DAB300ADC973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4281EE619F3DAB300ADC973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4281EE819F3DAB300ADC973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4281EEB19F3DAB300ADC973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4281EED19F3DAB300ADC973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4281EF019F3DAB300ADC973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4281EF619F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DEMO-Swift-AutoLayout-ResizableTableViewCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4281EFB19F3DAB300ADC973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4281EFC19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4281EDE19F3DAB300ADC973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4281EF319F3DAB300ADC973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4281ED819F3DAB300ADC973 = {
+			isa = PBXGroup;
+			children = (
+				F4281EE319F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell */,
+				F4281EF919F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests */,
+				F4281EE219F3DAB300ADC973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4281EE219F3DAB300ADC973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4281EE119F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell.app */,
+				F4281EF619F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4281EE319F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F4281EE619F3DAB300ADC973 /* AppDelegate.swift */,
+				F4281EE819F3DAB300ADC973 /* ViewController.swift */,
+				F4281EEA19F3DAB300ADC973 /* Main.storyboard */,
+				F4281EED19F3DAB300ADC973 /* Images.xcassets */,
+				F4281EEF19F3DAB300ADC973 /* LaunchScreen.xib */,
+				F4281EE419F3DAB300ADC973 /* Supporting Files */,
+			);
+			path = "DEMO-Swift-AutoLayout-ResizableTableViewCell";
+			sourceTree = "<group>";
+		};
+		F4281EE419F3DAB300ADC973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4281EE519F3DAB300ADC973 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4281EF919F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4281EFC19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift */,
+				F4281EFA19F3DAB300ADC973 /* Supporting Files */,
+			);
+			path = "DEMO-Swift-AutoLayout-ResizableTableViewCellTests";
+			sourceTree = "<group>";
+		};
+		F4281EFA19F3DAB300ADC973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4281EFB19F3DAB300ADC973 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4281EE019F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4281F0019F3DAB300ADC973 /* Build configuration list for PBXNativeTarget "DEMO-Swift-AutoLayout-ResizableTableViewCell" */;
+			buildPhases = (
+				F4281EDD19F3DAB300ADC973 /* Sources */,
+				F4281EDE19F3DAB300ADC973 /* Frameworks */,
+				F4281EDF19F3DAB300ADC973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DEMO-Swift-AutoLayout-ResizableTableViewCell";
+			productName = "DEMO-Swift-AutoLayout-ResizableTableViewCell";
+			productReference = F4281EE119F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4281EF519F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4281F0319F3DAB300ADC973 /* Build configuration list for PBXNativeTarget "DEMO-Swift-AutoLayout-ResizableTableViewCellTests" */;
+			buildPhases = (
+				F4281EF219F3DAB300ADC973 /* Sources */,
+				F4281EF319F3DAB300ADC973 /* Frameworks */,
+				F4281EF419F3DAB300ADC973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4281EF819F3DAB300ADC973 /* PBXTargetDependency */,
+			);
+			name = "DEMO-Swift-AutoLayout-ResizableTableViewCellTests";
+			productName = "DEMO-Swift-AutoLayout-ResizableTableViewCellTests";
+			productReference = F4281EF619F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4281ED919F3DAB300ADC973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = grachro;
+				TargetAttributes = {
+					F4281EE019F3DAB300ADC973 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F4281EF519F3DAB300ADC973 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F4281EE019F3DAB300ADC973;
+					};
+				};
+			};
+			buildConfigurationList = F4281EDC19F3DAB300ADC973 /* Build configuration list for PBXProject "DEMO-Swift-AutoLayout-ResizableTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4281ED819F3DAB300ADC973;
+			productRefGroup = F4281EE219F3DAB300ADC973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4281EE019F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell */,
+				F4281EF519F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4281EDF19F3DAB300ADC973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4281EEC19F3DAB300ADC973 /* Main.storyboard in Resources */,
+				F4281EF119F3DAB300ADC973 /* LaunchScreen.xib in Resources */,
+				F4281EEE19F3DAB300ADC973 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4281EF419F3DAB300ADC973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4281EDD19F3DAB300ADC973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4281EE919F3DAB300ADC973 /* ViewController.swift in Sources */,
+				F4281EE719F3DAB300ADC973 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4281EF219F3DAB300ADC973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4281EFD19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4281EF819F3DAB300ADC973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4281EE019F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCell */;
+			targetProxy = F4281EF719F3DAB300ADC973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4281EEA19F3DAB300ADC973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4281EEB19F3DAB300ADC973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4281EEF19F3DAB300ADC973 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4281EF019F3DAB300ADC973 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4281EFE19F3DAB300ADC973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4281EFF19F3DAB300ADC973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4281F0119F3DAB300ADC973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DEMO-Swift-AutoLayout-ResizableTableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4281F0219F3DAB300ADC973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DEMO-Swift-AutoLayout-ResizableTableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4281F0419F3DAB300ADC973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DEMO-Swift-AutoLayout-ResizableTableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DEMO-Swift-AutoLayout-ResizableTableViewCell.app/DEMO-Swift-AutoLayout-ResizableTableViewCell";
+			};
+			name = Debug;
+		};
+		F4281F0519F3DAB300ADC973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DEMO-Swift-AutoLayout-ResizableTableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DEMO-Swift-AutoLayout-ResizableTableViewCell.app/DEMO-Swift-AutoLayout-ResizableTableViewCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4281EDC19F3DAB300ADC973 /* Build configuration list for PBXProject "DEMO-Swift-AutoLayout-ResizableTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4281EFE19F3DAB300ADC973 /* Debug */,
+				F4281EFF19F3DAB300ADC973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4281F0019F3DAB300ADC973 /* Build configuration list for PBXNativeTarget "DEMO-Swift-AutoLayout-ResizableTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4281F0119F3DAB300ADC973 /* Debug */,
+				F4281F0219F3DAB300ADC973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4281F0319F3DAB300ADC973 /* Build configuration list for PBXNativeTarget "DEMO-Swift-AutoLayout-ResizableTableViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4281F0419F3DAB300ADC973 /* Debug */,
+				F4281F0519F3DAB300ADC973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4281ED919F3DAB300ADC973 /* Project object */;
+}
