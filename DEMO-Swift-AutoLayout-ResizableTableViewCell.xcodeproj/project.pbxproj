@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		F4281EE719F3DAB300ADC973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281EE619F3DAB300ADC973 /* AppDelegate.swift */; };
 		F4281EE919F3DAB300ADC973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281EE819F3DAB300ADC973 /* ViewController.swift */; };
-		F4281EEC19F3DAB300ADC973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4281EEA19F3DAB300ADC973 /* Main.storyboard */; };
 		F4281EEE19F3DAB300ADC973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4281EED19F3DAB300ADC973 /* Images.xcassets */; };
 		F4281EF119F3DAB300ADC973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4281EEF19F3DAB300ADC973 /* LaunchScreen.xib */; };
 		F4281EFD19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281EFC19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift */; };
+		F4281F0719F3DBF600ADC973 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4281F0619F3DBF600ADC973 /* Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		F4281EE519F3DAB300ADC973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4281EE619F3DAB300ADC973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4281EE819F3DAB300ADC973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4281EEB19F3DAB300ADC973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4281EED19F3DAB300ADC973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F4281EF019F3DAB300ADC973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F4281EF619F3DAB300ADC973 /* DEMO-Swift-AutoLayout-ResizableTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DEMO-Swift-AutoLayout-ResizableTableViewCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4281EFB19F3DAB300ADC973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4281EFC19F3DAB300ADC973 /* DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMO_Swift_AutoLayout_ResizableTableViewCellTests.swift; sourceTree = "<group>"; };
+		F4281F0619F3DBF600ADC973 /* Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				F4281EE619F3DAB300ADC973 /* AppDelegate.swift */,
 				F4281EE819F3DAB300ADC973 /* ViewController.swift */,
-				F4281EEA19F3DAB300ADC973 /* Main.storyboard */,
+				F4281F0619F3DBF600ADC973 /* Layout.swift */,
 				F4281EED19F3DAB300ADC973 /* Images.xcassets */,
 				F4281EEF19F3DAB300ADC973 /* LaunchScreen.xib */,
 				F4281EE419F3DAB300ADC973 /* Supporting Files */,
@@ -192,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4281EEC19F3DAB300ADC973 /* Main.storyboard in Resources */,
 				F4281EF119F3DAB300ADC973 /* LaunchScreen.xib in Resources */,
 				F4281EEE19F3DAB300ADC973 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +213,7 @@
 			files = (
 				F4281EE919F3DAB300ADC973 /* ViewController.swift in Sources */,
 				F4281EE719F3DAB300ADC973 /* AppDelegate.swift in Sources */,
+				F4281F0719F3DBF600ADC973 /* Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4281EEA19F3DAB300ADC973 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4281EEB19F3DAB300ADC973 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4281EEF19F3DAB300ADC973 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -405,6 +397,7 @@
 				F4281F0219F3DAB300ADC973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4281F0319F3DAB300ADC973 /* Build configuration list for PBXNativeTarget "DEMO-Swift-AutoLayout-ResizableTableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +406,7 @@
 				F4281F0519F3DAB300ADC973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
